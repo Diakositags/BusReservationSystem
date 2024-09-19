@@ -6,7 +6,7 @@ body {
 }
 
 .login-form {
-    background-color: #7F1BA8;
+    background-color: #FAF7FF;
     width: 350px;
     height: 350px;
     padding: 20px;
@@ -21,25 +21,20 @@ body {
 }
 
 input{
-    background-color: #FFE8FF;
+    background-color: #F2ECFF;
     border: 0;
     border-radius: 2px;
 }
 
 ::placeholder{
-    color: #7F7382;
+    color: #9C9A9A;
     font-weight:bolder;
     font-size: 15px;
     padding-left: 10px;
 }
 
-.login-text{
-    color: #FF3C6C;
-    padding-top: 80px;
-}
-
 button{
-    background-color: #EB7AFF;
+    background-color: #008CFF;
     border: 0;
     color: #FFFFFF;
     border-radius: 2px;
@@ -52,37 +47,51 @@ button{
     justify-content: center;
 }
 
-.forgot{
-    color:#E16464;
-    margin: 5px;
-    font-weight: bolder;
-    font-size: 12px;
-}
-
 .password, .email{
     width: 320px;
     height: 25px;
     margin-top: 10px;
 }
 
-.input-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+.remember-forgot{
+    display: flex;
+       align-items: center;
+       margin-top: 10px;
+       font-size: 13px;
+       margin-left: 35px;
+   }
+   
+   .remember-left {
+       display: flex;
+       align-items: center;
+   }
+   
+   input[type="checkbox"] {
+       width: 13px; 
+       height: 13px; 
+       margin: 0px;
+   }
+   
+   label {
+       margin-left: 5px;
+   }
+.forgot-right{
+    margin-left: 85px;
 }
 
-.error-message {
-    color: #FF0000;
-    margin: 5px 0 20px 0;
-    font-size: 12px;
-    text-align: start;
-    padding-left: 30px;
-    font-weight: bold;
+.forgot-password{
+    text-decoration: none;
 }
 
-h1{
-    color: black;
+.icons i{
+    font-size: 20px;
+    color: blue;
 }
+
+.icons a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
 
 .navigation{
     background-color: #0083DF;
